@@ -1,0 +1,17 @@
+/**
+* ----------------------------------------------------------------------------
+* 01 SETTINGS
+* Contains the configuration files that holds global variables for the project
+* (for typography, color schemes, and so on).
+* ----------------------------------------------------------------------------
+*/
+@use "./settings/typography.scss";
+@use "./settings/webfonts.scss";
+
+/**
+* ----------------------------------------------------------------------------
+* 02 COMPONENTS
+* Contains styling for components, including .astro, jsx files
+* ----------------------------------------------------------------------------
+*/
+@use "./components/home.scss";
