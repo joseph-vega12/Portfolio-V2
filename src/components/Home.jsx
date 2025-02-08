@@ -31,6 +31,9 @@ export default function Home() {
 
   return (
     <section className="home">
+      <div className="resume-button-container">
+        <button className="resume-button">Resume</button>
+      </div>
       <div className="grid-heading">
         <div className="top-content">
           <div className="left-avatar-box"></div>
@@ -49,8 +52,8 @@ export default function Home() {
           <p>{home.frontmatter.aboutText}</p>
         </div>
       </div>
+      <h3 className="tabs-heading">{home.frontmatter.pagesTitle}</h3>
       <div className="tabs">
-        <h3>{home.frontmatter.pagesTitle}</h3>
         {home.frontmatter.pages.map(({ title, description }) => (
           <div className="tab">
             <h4>{title}</h4>

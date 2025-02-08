@@ -7,9 +7,9 @@ aboutText: "Here I plan to save things about me, like what music I like listenin
 pagesTitle: "Pages"
 pages:
   [
-    { title: "Project 1", description: "A Short Description of the project." },
-    { title: "Project 2", description: "A Short Description of the project." },
-    { title: "Project 3", description: "A Short Description of the project." },
-    { title: "Project 4", description: "A Short Description of the project." },
+    { title: "About", description: "Lees wat ik met de wereld deel" },
+    { title: "Work Experience", description: "Lees wat ik met de wereld deel" },
+    { title: "Projects", description: "Lees wat ik met de wereld deel" },
+    { title: "Get in Touch", description: "Lees wat ik met de wereld deel" },
   ]
 ---
